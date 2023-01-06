@@ -160,10 +160,10 @@
 .unit-paragraph{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 .unit-paragraph h4{
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .unit-paragraph p{
     color: gray;
@@ -177,7 +177,7 @@
 
 /* gradiant image styling */
 .gradiant-image{
-    margin:  230px 130px ;
+    margin:  130px 130px ;
     height: 170px;
     padding: 64px  59px;   
     background: url('../images/watch.png'),url('../images/gradient1.png');
