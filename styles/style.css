@@ -122,6 +122,58 @@
     margin-bottom: 30px;
     
 }
+/* Extra part motivational styling  */
+.motivation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.motivation h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.motivation-units{
+    display: flex;
+    flex-direction: column;
+
+}
+.half-unit{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.unit{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    padding:20px;
+    box-shadow: 5px 5px 15px rgba(135, 135, 135, 0.491);
+    border-radius: 10px;
+    margin: 20px;
+}
+.unit:hover{
+    background-color: aquamarine;
+
+}
+.unit-paragraph{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.unit-paragraph h4{
+    margin-bottom: 16px;
+}
+.unit-paragraph p{
+    color: gray;
+}
+.unit-image{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
 
 /* gradiant image styling */
 .gradiant-image{
