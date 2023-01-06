@@ -57,7 +57,7 @@
     
 }
 .failure-text{
-    margin-top: 180px;
+    margin-top: 120px;
     margin-left: 50px;
 }
 .failure-text h3{
@@ -67,6 +67,10 @@
 .failure-text p{
     margin-bottom: 16px;
     font-size: 16px;
+}
+.failure-image{
+    height: 720px;
+    width: 565px;
 }
 .listing{
     list-style: none;
