@@ -186,12 +186,13 @@ footer{
     padding-left: 9px;
     border-radius: 5px;
 }
+
+.subscribe .btn{
+    background-color: #005FAC;
+    color: #ffffff;
+}
 .icons img{
     height: 47px;
     width: 47px;
     margin: 17px;
-}
-.subscribe .btn{
-    background-color: #005FAC;
-    color: #ffffff;
 }
