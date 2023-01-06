@@ -204,12 +204,12 @@ footer{
     height:250px;
     background: #000000;
     display: flex;
-    padding: 230px 130px;
+    padding: 80px 130px;
     color: #ffffff;
 
 }
 .future{
-    width: 485px;
+    width: 500px;
     margin-right: 331px;
 }
 .future h3{
@@ -246,5 +246,5 @@ footer{
 .icons img{
     height: 47px;
     width: 47px;
-    margin: 17px;
+    margin: 5px;
 }
