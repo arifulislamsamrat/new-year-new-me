@@ -1,0 +1,197 @@
+/* Apply for all */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* apply for heading */
+.heading{
+    height: 700px;
+    width: 100%;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.banner-content{
+    text-align: end;
+    width: 480px;
+    margin-top: 200px;
+    color: white;
+  
+    align-items: flex-end;
+    margin-right: 200px;
+    
+   
+}
+.banner-content h1{
+    font-size: 65px;
+}
+.banner-content p{
+    font-size: 16px;
+}
+.btn{
+    color: #005FAC;
+    padding: 20px 25px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 32px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+/* Failures year  styling*/
+.failure{
+    margin-left: 206px;
+    margin-right:150px;
+    margin-top: 131px;
+    display: flex;
+    
+}
+.failure-text{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.failure-text h3{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.failure-text p{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.listing{
+    list-style: none;
+}
+.listing li{
+    display: flex;
+    margin-bottom: 8px;
+}
+.listing img{
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+}
+/* my plans section styling */
+
+
+.my-plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-plans h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 120px 0px;
+    text-align: center;
+}
+.my-plans >div{
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+.item{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.item h4{
+    
+    font-weight: 600;
+    margin-bottom:16px ;
+    
+}
+
+.plan-image{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+    
+}
+
+/* gradiant image styling */
+.gradiant-image{
+    margin:  230px 130px ;
+    height: 170px;
+    padding: 64px  59px;   
+    background: url('../images/watch.png'),url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: #ffffff;
+    border-radius: 5px;
+    
+
+}
+.gradiant-image div{
+    width: 460px;
+   
+ 
+}
+.gradiant-image div h3{
+    font-size: 40px;
+    font-weight: 700;
+    
+    
+}
+/* footer style started */
+footer{
+    height:250px;
+    background: #000000;
+    display: flex;
+    padding: 230px 130px;
+    color: #ffffff;
+
+}
+.future{
+    width: 485px;
+    margin-right: 331px;
+}
+.future h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.future p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.mail,.phone{
+    margin-bottom: 24px;
+}
+.subscribe h4{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.subscribe input{
+    height: 64px;
+    width: 325px;
+    border: 0.5px solid white;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left: 9px;
+    border-radius: 5px;
+}
+.icons img{
+    height: 47px;
+    width: 47px;
+    margin: 17px;
+}
+.subscribe .btn{
+    background-color: #005FAC;
+    color: #ffffff;
+}
